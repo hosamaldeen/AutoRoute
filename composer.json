@@ -13,7 +13,7 @@
     "minimum-stability": "dev",
      "autoload": {
         "psr-4": {
-            "hosamaldeen\\auto_route\\": "src/"
+            "HosamAldeen\\AutoRoute\\": "src/"
         }
     },
     "require": {}
