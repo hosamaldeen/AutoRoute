@@ -1,5 +1,5 @@
 {
-    "name": "hosamaldeen/auto_route",
+    "name": "HosamAldeen/AutoRoute",
     "description": "laravel General Route : to allow You not to put every general route in the route file",
     "type": "laravel",
     "version":"1",
