@@ -1,0 +1,20 @@
+{
+    "name": "hosamaldeen/AutoRoute",
+    "description": "laravel General Route : to allow You not to put every general route in the route file",
+    "type": "laravel",
+    "version":"1",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Hossam ahmed",
+            "email": "hosam.ahmed2000@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+     "autoload": {
+        "psr-4": {
+            "hosamaldeen\\AutoRoute\\": "src/"
+        }
+    },
+    "require": {}
+}
