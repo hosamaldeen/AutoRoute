@@ -23,12 +23,12 @@ there are 4 ways for general routes based on the count of the segments
 # Usage
 in your route file add this 
 ```
-$defaultRoute = new hosamaldeen\auto_route\Route;
+$defaultRoute = new HosamAldeen\AutoRoute\Route;
 $defaultRoute->create();
 ```
 you can add some options to your routes 
 ```
-$defaultRoute = new hosamaldeen\auto_route\Route;
+$defaultRoute = new HosamAldeen\AutoRoute\Route;
 $defaultRoute->prefix = '';
 $defaultRoute->middleware = [];
 $defaultRoute->namespace = '';
@@ -37,10 +37,10 @@ $defaultRoute->create();
 
 # Full Example
 ```
-$defaultRoute = new hosamaldeen\auto_route\Route; // frontend
+$defaultRoute = new HosamAldeen\AutoRoute\Route; // frontend
 $defaultRoute->create();
 
-$defaultRoute = new hosamaldeen\auto_route\Route; //backend
+$defaultRoute = new HosamAldeen\AutoRoute\Route; //backend
 $defaultRoute->prefix = '/backend';
 $defaultRoute->middleware = ['web'];
 $defaultRoute->namespace = 'Backend';
