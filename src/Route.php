@@ -1,5 +1,5 @@
 <?php
-namespace hosamaldeen\AutoRoute;
+namespace hosamaldeen\auto_route;
 
 class Route
 {

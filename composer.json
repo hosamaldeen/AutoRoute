@@ -1,5 +1,5 @@
 {
-    "name": "hosamaldeen/AutoRoute",
+    "name": "hosamaldeen/auto_route",
     "description": "laravel General Route : to allow You not to put every general route in the route file",
     "type": "laravel",
     "version":"1",
@@ -13,7 +13,7 @@
     "minimum-stability": "dev",
      "autoload": {
         "psr-4": {
-            "hosamaldeen\\AutoRoute\\": "src/"
+            "hosamaldeen\\auto_route\\": "src/"
         }
     },
     "require": {}
