@@ -5,6 +5,7 @@ class Route
 {
 	public $prefix = '';
 	public $namespace = '';
+	public $middleware  ;
 	
 	public function create(){
 		$segments = \Request::segments() ;
@@ -49,7 +50,7 @@ class Route
 		
 		if(	class_exists($controllerNamespace.$controller) && method_exists($controllerNamespace.$controller ,$method ) )
 		{
-			\Route::any($url, $controllerNamespace.$controller.'@'.$method);	
+			\Route::any($url, $controllerNamespace.$controller.'@'.$method)->middleware($this->middleware);	
 		}
 	}
 }
